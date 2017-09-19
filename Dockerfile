@@ -1,5 +1,6 @@
 #make base image
-FROM zoomtech/ubuntu-cuda-ppc64le
+#FROM zoomtech/ubuntu-cuda-ppc64le
+FROM nvidia/cuda-ppc64le:8.0-cudnn6-devel-ubuntu16.04
 MAINTAINER LiShengYao <lisy@zoomserver.cn>
 
 WORKDIR /root
